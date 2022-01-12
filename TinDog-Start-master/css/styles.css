@@ -1,0 +1,182 @@
+body{
+  text-align: center;
+}
+
+/* sections for color */
+.colored-section{
+  background-color: #ef8172;
+  color: white;
+}
+
+.white-colored{
+  background-color: #fff;
+}
+
+
+/* navigation bar and top section  */
+
+.heading{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:900;
+  line-height: 1.5;
+  font-size: 3rem;
+
+}
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+  background-color: #ff4c68;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+.download{
+  margin: 1.5rem 1rem 1rem 0;
+}
+
+.iphone{
+  transform: rotate(25deg);
+  width: 17rem;
+  height: 34.5rem;
+  position: absolute;
+  right: 30%;
+}
+
+.nav-item{
+
+  font-size: 1.2rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+.navbar{
+  padding-left: 0;
+  margin-bottom: 3.5rem;
+}
+
+@media (max-width: 1120px) {
+ .iphone{
+   width: 17rem;
+   height: 34.5rem;
+   position: static;
+ }
+
+ #title{
+   text-align: center;
+ }
+}
+
+@media (max-width: 991px) {
+.iphone{
+  transform: rotate(0);
+  width: 17rem;
+  height: 34.5rem;
+  position: static;
+  padding: 1.5rem 0;
+}
+
+#title{
+  text-align: center;
+}
+}
+
+/* Features section */
+
+#features{
+  position: relative;
+}
+
+.feature-title{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.icon-size{
+  font-size: 4rem;
+  color: #ef8172;
+}
+
+.icon-size:hover{
+  color: #ff4c68;
+}
+
+.feature-details{
+  color: #8f8f8f;
+  width: 70%;
+  margin: 0 auto;
+}
+
+
+
+/* Testimonials sections */
+
+
+
+.t-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.t-icon{
+  border-radius: 100%;
+  width: 20%;
+  padding: 20px;
+}
+
+/* Press */
+
+#press{
+
+  padding: 6rem 8rem 3rem 8rem;
+}
+
+.press-icon{
+  width: 17%;
+  margin: 1.2rem;
+}
+
+
+
+/* Pricing */
+
+
+#pricing{
+  padding: 100px;
+}
+
+.pricing-column{
+  padding: 2% 3%;
+}
+
+
+
+/* Download section */
+
+
+/* contact section */
+
+.last{
+  color: #aaaaaa;
+  font-size: 0.8rem;
+  font-style: 'Montserrat', sans-serif;
+}
+
+.social-media{
+  color: #5b5b5b;
+  margin: 1rem;
+  display: inline-block;
+}
